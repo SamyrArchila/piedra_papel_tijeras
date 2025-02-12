@@ -1,42 +1,54 @@
 import random
 
-print("----------------------")
+print("-------------------------------")
 print("Piedra,papel o tijera")
-print("----------------------")
+print("-------------------------------")
 print("1. piedra")
 print("2. papel")
 print("3. tijera")
-print("----------------------")
+print("-------------------------------")
 
-usuario = int(input("Ingrese el numero correspondiente a su decision: "))
+# input
+usuario = int (input("Dijite la opcion deseada: "))
+
+# Processing
 maquina = random.randint(1,3)
 
-if usuario not in [1, 2, 3]:
-    print("No valido")
+if usuario < 1 or usuario > 4:
+    print("Por favor juegue nuevamente")
+    r = "Opción no válida."
 else:
-    if usuario == 1:
-        print("Elegiste: Piedra")
-    elif usuario == 2:
-        print("Elegiste: papel")
-    elif usuario == 3:
-        print("Elegiste: tijera")
-
+    # el usuario escogió una opción válida
     if maquina == 1:
-        print("La maquina eligio: Piedra")
+        if usuario == 1:
+            r = "Empate"
+        elif usuario == 2:
+            r = "Ganaste"
+        else:
+            r = "Perdiste"
     elif maquina == 2:
-        print("La maquina eligio: papel")
-    elif maquina == 3:
-        print("La maquina eligio: tijera")
+        if usuario == 1:
+            r = "Perdiste"
+        elif usuario == 2:
+            r = "Empate"
+        else:
+            r = "Ganaste"
+    else:
+        if usuario == 1:
+            r = "ganaste"
+        elif usuario == 2:
+            r = "Perdiste"
+        else:
+            r = "Empate"
 
-    if usuario == maquina:
-        print("Empate")
-    elif usuario == 1 and maquina == 1:
-        print("Ganaste")
-    elif usuario == 2 and maquina == 2:
-        print("Ganaste")
-    elif usuario == 3 and maquina == 3:
+# salida
+print("-------------------------------")
+print("---------Resultado ------------")
+print("--- " + r + " ----")
+print("Usuario: " + str(usuario))
+print("Máquina: " + str(maquina))
+print("-------------------------------")
 
-    
 
 
 
