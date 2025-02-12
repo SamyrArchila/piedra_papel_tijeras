@@ -22,7 +22,7 @@
                 <mxCell id="7" value="&lt;font face=&quot;Verdana&quot;&gt;maq == 1&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="304.5" y="971" width="130" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="USU == 1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=18;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                <mxCell id="11" value="usu == 1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=18;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="540" y="1143" width="120" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="" style="endArrow=none;html=1;fontFamily=Verdana;fontSize=18;" parent="1" edge="1">
