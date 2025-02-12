@@ -26,6 +26,18 @@ else:
     elif maq == 3:
         print("La maquina eligio: tijera")
 
-    if usu == maq
-    print("Empate")
-    elif usu == and maq
+    if usu == maq:
+        print("Empate")
+    elif usu == 2 maq:
+        print("Ganaste")
+    elif usu == 3 maq:
+        print("Ganaste")
+    elif usu == 4 maq: 
+
+
+
+
+
+
+
+
